@@ -112,11 +112,11 @@ A violin plot is similar to a box plot, but it also shows the distribution densi
 
 
 ## Project Structure
-DataView/
-├── app.py                  # Main Streamlit app file
-├── requirements.txt        # List of dependencies
-├── README.md               # Documentation
-└── (any other files like data or images)
+- DataView/
+- ├── app.py                  # Main Streamlit app file
+- ├── requirements.txt        # List of dependencies
+- ├── README.md               # Documentation
+
 
 ## Conclusion
 
