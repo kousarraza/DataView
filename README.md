@@ -110,6 +110,14 @@ A violin plot is similar to a box plot, but it also shows the distribution densi
 
 ---
 
+
+## Project Structure
+DataView/
+├── app.py                  # Main Streamlit app file
+├── requirements.txt        # List of dependencies
+├── README.md               # Documentation
+└── (any other files like data or images)
+
 ## Conclusion
 
 This app serves as a powerful tool for **data analysis and visualization** by enabling users to upload datasets, explore the data through various chart types, and gain insights into the data. The app is flexible and can handle both categorical and numeric data types, providing visualizations like bar charts, histograms, heatmaps, and more. The inclusion of chart download options and the history of previous charts makes this app an excellent tool for interactive data exploration.
