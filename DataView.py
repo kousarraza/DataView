@@ -13,7 +13,7 @@ uploaded_file = st.file_uploader("Upload your CSV or Excel file", type=["csv", "
 # Initialize a session state to store history if it doesn't exist
 if 'history' not in st.session_state:
     st.session_state.history = []
-
+  
 def save_plot(fig, format='png'):
     buf = BytesIO()
     fig.savefig(buf, format=format)
