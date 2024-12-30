@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 from io import BytesIO
-
+  
 # Set the title of the app
 st.title("DataView - Advanced Data Analysis and Visualization")
 
