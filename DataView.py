@@ -6,7 +6,7 @@ from io import BytesIO
       
 # Set the title of the app
 st.title("DataView - Advanced Data Analysis and Visualization")
-
+  
 # Upload the dataset
 uploaded_file = st.file_uploader("Upload your CSV or Excel file", type=["csv", "xlsx"])
 
